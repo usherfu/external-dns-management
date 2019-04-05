@@ -41,6 +41,7 @@ helper:
               preprocess: 'finalize'
             release:
               nextversion: 'bump_patch'
+            component_descriptor: ~
 
     standard: 
       <<: (( &template ))
